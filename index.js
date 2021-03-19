@@ -148,4 +148,4 @@ client.on('message', message => {
     }
 })
 */
-client.login(client.config.discord.token);
+client.login(process.env.token);
